@@ -1,3 +1,11 @@
+//Verilog Code for 4 Bit Code Converter in Structural Style
+//Here the outputs are considered as different because there was an issue when outputs of all the Muxs were shorted.
+//In Practically Built Circuits the Outputs are shorted using a Diode so the Issue has been resolved there.
+//o0 output of Binary to Gray Code Converter.
+//o1 BCD to Excess-3 Code Converter.
+//o2 Gray Code to Binary Converter.
+//o3 Excess-3 to BCD Converter.
+
 module Code_Converter_4Bit(A,B,C,D,S2,S1,o0,o1,o2,o3);
 input A,B,C,D;
 input S2,S1;
